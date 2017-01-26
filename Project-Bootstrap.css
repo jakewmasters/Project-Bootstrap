@@ -1,0 +1,169 @@
+* {
+  background-color: black;
+  font-family: 'Press Start 2P', cursive;
+  color: #37ff00;
+}
+body {
+	background-color:black !important;
+}
+a {
+	text-decoration: none;
+}
+
+a:hover {
+  animation: rainbow 5s infinite;
+}
+
+@keyframes rainbow {
+   0%   { color:#37ff00;}
+   50%  { color:blue;}
+   100% { color:red;}
+}
+
+h1 {
+  position: relative;
+  top: 20px;
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+#adminDiv {
+  text-align: center;
+}
+
+#adminButton {
+  position: relative;
+  top: 160px;
+}
+
+#usernameDiv {
+  text-align: center;
+  position: relative;
+  top: 60px;
+}
+
+#passwordDiv {
+  text-align: center;
+  position: relative;
+  top: 60px;
+}
+
+#submitButton {
+  position: relative;
+  top: 70px;
+}
+#logoutButton {
+  position: relative;
+  top: 70px;
+}
+#changePassword {
+  position: relative;
+  top: 70px;
+}
+#registerButton {
+  text-align: center;
+  position: relative;
+  top: 70px;
+}
+#registerButtonDiv {
+  text-align: center;
+  display: none;
+}
+#welcomeOptionsDiv {
+  position: relative;
+  top: 40px;
+  text-align: center;
+}
+.or {
+  padding: 15px;
+}
+#loginDiv{
+  text-align: center;
+  display: none;
+}
+#loginButtonDiv{
+  text-align: center;
+  display: none;
+}
+#logoutButtonDiv{
+  text-align: center;
+  display: none;
+}
+#changePasswordDiv{
+  text-align: center;
+  display: none;
+}
+#loggedIn{
+  display: block;
+  position: absolute;
+  color: rgb(0,120,255);
+  top: 1%;
+  left: 1%;
+}
+#notification{
+	text-align: center;
+	position: relative;
+	top: 90px;
+}
+#usernameMessage {
+	font-size:12px;
+}
+#passwordMessage {
+	font-size:12px;
+}
+#delAccMessage {
+	font-size:12px;
+}
+#deleteAccountDiv{
+	text-align: center;
+	position: relative;
+	top: 140px;
+	display: none;
+}
+
+footer {
+    position: fixed;
+	bottom: 0px;
+	width: 100%;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 16px;
+	color: orange;
+}
+
+#deleteTable {
+	position: relative;
+	top: 160px;
+	table-layout: fixed;
+	text-align: left;
+	display: none;
+	width: 200px;
+	margin: 0 auto;
+	padding-bottom: 100px;
+}
+
+td {
+	width: 100px;
+	font-size:11px;
+	color: gray;
+	word-wrap: break-word;
+	text-align: left;
+	padding-right: 3px;
+	border: 1px solid gray;
+}
+
+.deleteButton {
+	color: red;
+}
+.changePassword {
+	color: yellow;
+}
+@media screen and (max-width: 768px) {
+	footer {
+		font-size: 8px;
+	}
+}
